@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#App{
+    font-family: sans-serif;
+}
+
+.header_all{
+    background-image: url('./imgApp/Rectangle\ 9.png');
+    height: 930px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+.header_navbar{
+    height: 156px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav_menu{
+    max-width: 437px;
+    height: 48px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav_menu>li{
+    font-size: 15px;
+    list-style-type: none;
+   padding: 10px;
+   color: aliceblue;
+   
+}
+.img_figma{
+    margin-left: 30px;
+}
+.img_figma>img{
+    max-width: 168px;
+    height: 58px;
+
+}
+.nav_icon{
+    margin-left: 120px;
+}
+.nav_icon>ul{
+display: flex;
+}
+.nav_icon>ul>li{
+    margin-right: 32px;
+}
+
+/* ======= the */
+.Nav_The--best{
+    text-align: center;
+    color: #fff;
+    
+}
+.Nav_Thebest--list{
+    max-width: 768px;
+    height: 295px;
+    margin: auto;
+}
+.Nav_Thebest--list>h1{
+    font-size: 74px;
+}
+.Nav_Thebest--list>p{
+    font-size: 28px;
+    
+}
+.Nav_Thebest--list>button{
+    width: 236px;
+    height: 52px;
+    /* Padding: 16px, 0px, 16px, 0px; */
+    background-color: #2091F9;
+    border: none;
+    border-radius: 35px;
+    margin-top: 90px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#container{
+
+}
+.container_all{
+    
+}
+.container_text-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container_text-1>h2{
+    font-size: 48px;
+    font-weight: 400px;
+}
+.container_text-1>h4{
+    font-size: 28px;
+    font-weight: 400px;
+    line-height: 40px;
+    margin-top: 27px;
+    max-width: 532px;
+   
+}
+.Features_list{
+    display: flex;
+    justify-content: center;
+    margin-top: 97px;
+    
+}
+.Features_list--all{
+    display: flex;
+    max-width: 869px;
+    justify-content: space-between;
+}
+.Features_list--1{
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 255px;
+}
+.Features_list--1>div>img{
+    height: 45.75px;
+    width: 45.75px;
+    margin-bottom: 27px;
+}
+.Features_list--1>h3{
+    margin-bottom: 20px;
+    max-width: 194px;
+    font-size: 20px;
+}
+.Features_list--1>p{
+    max-width: 231px;
+}
+
+.img_Play{
+    text-align: center;
+    position: relative;
+}
+.img_Play>img{
+    max-width: 1177.34px;
+    height: 658.3px;
+}
+.img_Play>p{
+    position: absolute;
+    top: 50%;
+    background: #2091F9;
+    padding: 46px;
+    border-radius: 50%;
+    left: 44%;
+    
+}
+.img_Play>p>img{
+    width: 39.04px;
+    height: 46.85px;
+}
+/* ===================== mycomputer */
+.list_MyComputer{
+    display: flex;
+    max-width: 1243px;
+    margin: 0 40px;
+}
+.list_MyComputer--text{
+    width: 50%;
+  
+   
+}
+.list_MyComputer--text>h2{
+   
+    max-width: 335px;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 27px;
+    
+}
+.list_MyComputer--text>h4{
+    font-size: 28px;
+    margin-bottom: 97px;
+   
+}
+.list_MyComputer--text>button{
+    padding: 15px 40px;
+    border:none;
+    border-radius: 35px;
+    background-color:#2091F9 ;
+
+}
+
+
+
+.list_MyComputer--img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.list_MyComputer--img>div>img{
+    border-radius: 10px ;
+    border: 5px solid;
+}
+
+.list_MyComputer--img>div{
+    width: fit-content;
+    position: relative;
+    height: fit-content;
+}
+
+.list_MyComputer--img>div::after{
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: -8px;
+    height: 12px;
+    width: 100px;
+    background-color: #9FA2A5;
+    border-radius: 4px;
+}
+.list_MyComputer--img>div::before{
+    content: "";
+    position: absolute;
+    left: -45px;
+    bottom: -20px;
+    height: 14px;
+    width: 120%;
+    background-color: #9FA2A5;
+    border-radius: 8px;
+}
+.Desktop{
+    margin: 0 20px;
+}
+.Desktop>img{
+    width: 100%;
+}
+
+
+
+
+#footer{
+    height: 300px;
+}
+.container_logo{
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 92px;
+}
+.container_logo>div{
+    width: 25%;
+    width: fit-content;
+    height: fit-content;
+}
+.button{
+    text-align: center;
+    margin-top: 97px;
+}
+.button>button{
+    padding: 15px 40px;
+    border:none;
+    border-radius: 35px;
+    background-color:#2091F9 ;
+    color: #fff;
+}
+.img_ibm>img{
+    width: 100%;
+}
+/* ======>>>> Pricing_text */
+
+.container_Pricing{
+    background-color: #252B42;
+}
+.Pricing_text{
+    color: #fff;
+}
